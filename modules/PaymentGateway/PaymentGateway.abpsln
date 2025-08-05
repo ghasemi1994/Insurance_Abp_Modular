@@ -1,0 +1,9 @@
+{
+  "id": "e4a3a9c8-85ce-4d9b-8d95-6c7b5c31a1dd",
+  "template": "empty",
+  "modules": {
+    "PaymentGateway": {
+      "path": "PaymentGateway.abpmdl"
+    }
+  }
+}

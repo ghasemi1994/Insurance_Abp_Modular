@@ -1,0 +1,9 @@
+{
+  "id": "92f64b5e-6a99-45de-818a-91a91824e5c6",
+  "template": "empty",
+  "modules": {
+    "InsurancePolicy": {
+      "path": "InsurancePolicy.abpmdl"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "017415a2-b59f-4e7e-b4cc-1d34f5a2e252",
+  "template": "empty",
+  "modules": {
+    "Notification": {
+      "path": "Notification.abpmdl"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "InsurancePolicy.Domain": {
+      "path": "src/InsurancePolicy.Domain/InsurancePolicy.Domain.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.Application.Contracts": {
+      "path": "src/InsurancePolicy.Application.Contracts/InsurancePolicy.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.Application": {
+      "path": "src/InsurancePolicy.Application/InsurancePolicy.Application.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.EntityFrameworkCore": {
+      "path": "src/InsurancePolicy.EntityFrameworkCore/InsurancePolicy.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.HttpApi": {
+      "path": "src/InsurancePolicy.HttpApi/InsurancePolicy.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.HttpApi.Client": {
+      "path": "src/InsurancePolicy.HttpApi.Client/InsurancePolicy.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.TestBase": {
+      "path": "test/InsurancePolicy.TestBase/InsurancePolicy.TestBase.abppkg",
+      "folder": "test"
+    },
+    "InsurancePolicy.EntityFrameworkCore.Tests": {
+      "path": "test/InsurancePolicy.EntityFrameworkCore.Tests/InsurancePolicy.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "InsurancePolicy.Domain.Tests": {
+      "path": "test/InsurancePolicy.Domain.Tests/InsurancePolicy.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "InsurancePolicy.Application.Tests": {
+      "path": "test/InsurancePolicy.Application.Tests/InsurancePolicy.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "InsurancePolicy.Domain.Shared": {
+      "path": "src/InsurancePolicy.Domain.Shared/InsurancePolicy.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "InsurancePolicy.Installer": {
+       "path": "src/InsurancePolicy.Installer/InsurancePolicy.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

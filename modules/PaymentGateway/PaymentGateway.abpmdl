@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "PaymentGateway.Domain": {
+      "path": "src/PaymentGateway.Domain/PaymentGateway.Domain.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.Application.Contracts": {
+      "path": "src/PaymentGateway.Application.Contracts/PaymentGateway.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.Application": {
+      "path": "src/PaymentGateway.Application/PaymentGateway.Application.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.EntityFrameworkCore": {
+      "path": "src/PaymentGateway.EntityFrameworkCore/PaymentGateway.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.HttpApi": {
+      "path": "src/PaymentGateway.HttpApi/PaymentGateway.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.HttpApi.Client": {
+      "path": "src/PaymentGateway.HttpApi.Client/PaymentGateway.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.TestBase": {
+      "path": "test/PaymentGateway.TestBase/PaymentGateway.TestBase.abppkg",
+      "folder": "test"
+    },
+    "PaymentGateway.EntityFrameworkCore.Tests": {
+      "path": "test/PaymentGateway.EntityFrameworkCore.Tests/PaymentGateway.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "PaymentGateway.Domain.Tests": {
+      "path": "test/PaymentGateway.Domain.Tests/PaymentGateway.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "PaymentGateway.Application.Tests": {
+      "path": "test/PaymentGateway.Application.Tests/PaymentGateway.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "PaymentGateway.Domain.Shared": {
+      "path": "src/PaymentGateway.Domain.Shared/PaymentGateway.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "PaymentGateway.Installer": {
+       "path": "src/PaymentGateway.Installer/PaymentGateway.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}
