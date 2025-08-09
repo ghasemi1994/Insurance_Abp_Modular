@@ -1,26 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PaymentGateway.IGatewayServices;
+
 
 
 namespace HttpApi.Host.Controllers;
 
 
-public class TestController : ApiBaseController
+public class TestController : HttpApiController
 {
 
-    private readonly IGatewayService _gatewayService;
-    public TestController(
-        IGatewayService gatewayService
-        )
+    public TestController()
     {
-        _gatewayService = gatewayService;
     }
 
 
     [HttpGet("[action]")]
-    public async Task<IActionResult> GetGateway(CancellationToken cancellationToken = default)
-    {
-        await _gatewayService.GetAsync(cancellationToken);
+    public async Task<IActionResult> GetOntMainApp(CancellationToken cancellationToken = default)
+    {       
         return Ok();
     }
 
@@ -28,17 +23,5 @@ public class TestController : ApiBaseController
 
 }
 
-public class User
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-
-    public User(int id, string name)
-    {
-        Id = id;
-        Name = name;
-    }
-
-}
 
 

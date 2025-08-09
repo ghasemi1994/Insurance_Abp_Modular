@@ -1,29 +1,22 @@
 ﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+using Asp.Versioning;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 using Volo.Abp;
 
 namespace PaymentGateway.Samples;
 
+
 [Area(PaymentGatewayRemoteServiceConsts.ModuleName)]
 [RemoteService(Name = PaymentGatewayRemoteServiceConsts.RemoteServiceName)]
-[Route("api/payment-gateway/example")]
+[Route("api/payment-gateway")]
+[ApiVersion("1.0", Deprecated = true)]
 public class ExampleController : PaymentGatewayController
 {
-
-
-
-    [HttpGet]
+    [HttpGet("get-ipg")]
     public async Task<IActionResult> GetAsync()
     {
-        return Ok();
+        return Ok("this is ipg test");
     }
 
-    [HttpGet]
-    [Route("authorized")]
-    [Authorize]
-    public async Task<IActionResult> GetAuthorizedAsync()
-    {
-        return Ok();
-    }
 }

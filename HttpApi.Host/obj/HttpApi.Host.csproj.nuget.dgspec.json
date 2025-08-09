@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\HttpApi.Host\\HttpApi.Host.csproj": {}
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\HttpApi.Host\\HttpApi.Host.csproj": {}
   },
   "projects": {
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\HttpApi.Host\\HttpApi.Host.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\HttpApi.Host\\HttpApi.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\HttpApi.Host\\HttpApi.Host.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\HttpApi.Host\\HttpApi.Host.csproj",
         "projectName": "HttpApi.Host",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\HttpApi.Host\\HttpApi.Host.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\HttpApi.Host\\HttpApi.Host.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\HttpApi.Host\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\HttpApi.Host\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,11 +31,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj"
               },
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj"
+              },
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\PaymentGateway.HttpApi.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\PaymentGateway.HttpApi.csproj"
+              },
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj"
               }
             }
           }
@@ -78,7 +84,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "OpenIddict.Validation.AspNetCore": {
               "target": "Package",
@@ -100,33 +106,41 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Volo.Abp.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.AspNetCore.Serilog": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Autofac": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Core": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Identity.AspNetCore": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.OpenIddict.AspNetCore": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Swashbuckle": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -152,14 +166,14 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj",
         "projectName": "PaymentGateway.Application.Contracts",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,8 +193,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj"
               }
             }
           }
@@ -204,21 +218,21 @@
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.2, )"
             },
             "Fody": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.9.2, )"
             },
             "Volo.Abp.Authorization": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Ddd.Application.Contracts": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -241,14 +255,14 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj",
         "projectName": "PaymentGateway.Application",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\PaymentGateway.Application.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -268,14 +282,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj"
               },
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj"
               },
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -299,21 +313,21 @@
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.2, )"
             },
             "Fody": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.9.2, )"
             },
             "Volo.Abp.AutoMapper": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Ddd.Application": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -336,14 +350,14 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj",
         "projectName": "PaymentGateway.Domain.Shared",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -384,25 +398,25 @@
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.2, )"
             },
             "Fody": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.9.2, )"
             },
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.8, )"
             },
             "Volo.Abp.Ddd.Domain.Shared": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.Validation": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -425,14 +439,14 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj",
         "projectName": "PaymentGateway.Domain",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -452,8 +466,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain.Shared\\PaymentGateway.Domain.Shared.csproj"
               }
             }
           }
@@ -477,17 +491,17 @@
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.2, )"
             },
             "Fody": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.9.2, )"
             },
             "Volo.Abp.Ddd.Domain": {
               "target": "Package",
-              "version": "[9.2.2, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -510,14 +524,14 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj",
         "projectName": "PaymentGateway.EntityFrameworkCore",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\PaymentGateway.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -537,8 +551,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
-                "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj"
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Domain\\PaymentGateway.Domain.csproj"
               }
             }
           }
@@ -562,37 +576,33 @@
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.2, )"
             },
             "Fody": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.9.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[9.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[9.0.5, )"
             },
             "Volo.Abp.Dapper": {
               "target": "Package",
-              "version": "[9.2.2, )"
-            },
-            "Volo.Abp.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             },
             "Volo.Abp.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.2.3, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
@@ -615,14 +625,103 @@
         }
       }
     },
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\PaymentGateway.HttpApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj",
-        "projectName": "Application.Utility",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\PaymentGateway.HttpApi.csproj",
+        "projectName": "PaymentGateway.HttpApi",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\PaymentGateway.HttpApi.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.HttpApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\10201756\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "http://packages.secservice.ikco.com/repository/nuget-pkg/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj": {
+                "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\modules\\PaymentGateway\\src\\PaymentGateway.Application.Contracts\\PaymentGateway.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.9.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj",
+        "projectName": "Application.Utility",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj",
+        "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -668,25 +767,21 @@
               "target": "Package",
               "version": "[14.7.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.7, )"
-            },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

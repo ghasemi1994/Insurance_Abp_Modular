@@ -18,7 +18,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using PaymentGateway;
-using PaymentGateway.EntityFrameworkCore;
+using Autofac.Core;
 
 
 namespace HttpApi.Host;
@@ -28,9 +28,11 @@ namespace HttpApi.Host;
     typeof(AbpAspNetCoreMultiTenancyModule),
     typeof(AbpSwashbuckleModule),
     typeof(AbpAspNetCoreSerilogModule),
-    typeof(PaymentGatewayApplicationModule),
+
+    typeof(PaymentGatewayHttpApiModule),
     typeof(PaymentGatewayApplicationContractsModule),
-    typeof(PaymentGatewayEntityFrameworkCoreModule)    
+    typeof(PaymentGatewayApplicationModule)
+
     )]
 public class HttpApiHostModule : AbpModule
 {
@@ -128,6 +130,7 @@ public class HttpApiHostModule : AbpModule
 
 
         app.UseSwagger();
+
         app.UseAbpSwaggerUI(options =>
         {
             options.SwaggerEndpoint("/swagger/v1/swagger.json", "Application API");
@@ -180,46 +183,15 @@ public class HttpApiHostModule : AbpModule
     private static void ConfigureSwagger(ServiceConfigurationContext context, IConfiguration configuration)
     {
 
-        context.Services.AddSwaggerGen(options =>
-        {
-            options.SwaggerDoc("v1", new OpenApiInfo { Title = "Application Api", Version = "v1" });
-
-            options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-            {
-                Description = "JWT Authorization header using the Bearer scheme.",
-                Name = "Authorization",
-                In = ParameterLocation.Header,
-                Type = SecuritySchemeType.Http,
-                Scheme = "bearer"
-            });
-
-            options.AddSecurityRequirement(new OpenApiSecurityRequirement
-            {
+        context.Services.AddAbpSwaggerGen(
+              options =>
               {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-              },
-            new string[] {}  
-                
-             }
-            });
-         });
-        /* context.Services.AddAbpSwaggerGenWithOidc(
-             configuration["AuthServer:Authority"]!,
-             ["Application"],
-             [AbpSwaggerOidcFlows.AuthorizationCode],
-             null,
-             options =>
-             {
-                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Application API", Version = "v1" });
-                 options.DocInclusionPredicate((docName, description) => true);
-                 options.CustomSchemaIds(type => type.FullName);
-             });*/
+                  options.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API", Version = "v1" });
+                  options.DocInclusionPredicate((docName, description) => true);
+                  options.CustomSchemaIds(type => type.FullName);
+                  options.HideAbpEndpoints();
+              });
+
     }
     private void ConfigureCors(ServiceConfigurationContext context, IConfiguration configuration)
     {

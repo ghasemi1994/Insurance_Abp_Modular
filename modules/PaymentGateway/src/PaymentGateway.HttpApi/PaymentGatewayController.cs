@@ -5,8 +5,5 @@ namespace PaymentGateway;
 
 public abstract class PaymentGatewayController : AbpControllerBase
 {
-    protected PaymentGatewayController()
-    {
-        LocalizationResource = typeof(PaymentGatewayResource);
-    }
+   
 }

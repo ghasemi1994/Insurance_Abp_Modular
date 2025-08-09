@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/EbtrsGa4Ugv0ZbeYxhGmlqLOUi8UF6ahWMjPpUMk1k=",
+  "Source": "HttpApi.Host",
+  "BasePath": "_content/HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj": {}
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj": {}
   },
   "projects": {
-    "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj": {
+    "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj",
+        "projectUniqueName": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj",
         "projectName": "Application.Utility",
-        "projectPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\Application.Utility.csproj",
+        "projectPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\Application.Utility.csproj",
         "packagesPath": "C:\\Users\\10201756\\.nuget\\packages\\",
-        "outputPath": "D:\\Remote Projetcs\\Abp\\Abp_Modular_Project\\utility\\Application.Utility\\obj\\",
+        "outputPath": "D:\\Remote Projetcs\\Abp\\Insurance_Abp_Modular\\utility\\Application.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,25 +57,21 @@
               "target": "Package",
               "version": "[14.7.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.7, )"
-            },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
